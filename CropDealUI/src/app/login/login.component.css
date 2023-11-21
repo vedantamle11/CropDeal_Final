@@ -1,0 +1,44 @@
+.container {
+  margin-top: 50px;
+  padding-bottom: 90px;
+  width: 500px;
+  background-color: #b9c8e8;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #4dac4d;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 3px;
+}
+
+.alert-danger {
+  color: red;
+  margin-top: 5px;
+}
+
+.btn-success {
+  background-color: #4dac4d;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #409a40;
+}
+
+select {
+  appearance: none;
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-down-b-512.png') no-repeat right center;
+  background-size: 16px 16px;
+  padding-right: 20px;
+}

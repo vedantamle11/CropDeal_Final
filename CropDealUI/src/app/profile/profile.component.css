@@ -1,0 +1,68 @@
+.gradient-custom {
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right bottom,
+    rgb(104, 96, 217),
+    rgba(73, 192, 73, 1)
+  );
+}
+.vh-100 {
+  height: 100vh;
+}
+
+.container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.card {
+  border-radius: 0.5rem;
+}
+
+.gradient-custom {
+  background-color: #4dac4d;
+  background-image: linear-gradient(to right, #4dac4d, #66b266);
+}
+
+.text-white {
+  color: white;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.my-5 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-bold {
+  font-weight: bold;
+}

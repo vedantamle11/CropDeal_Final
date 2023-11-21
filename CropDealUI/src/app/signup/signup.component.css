@@ -1,0 +1,79 @@
+.container {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  width: 500px;
+  background-color: #b9c8e8;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #010101;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 3px;
+}
+
+.alert-danger {
+  color: #dc3545;
+  margin-top: 5px;
+}
+
+.btn-success {
+  background-color: #3a8d3a;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #2e7231;
+}
+
+select.form-control {
+  appearance: none;
+  background-color: #f3f3f3;
+  border: none;
+  padding: 8px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+select.form-control:focus {
+  outline: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  overflow-y: auto;
+  max-height: 200px;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 5px;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #e5e5e5;
+}

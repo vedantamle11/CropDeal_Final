@@ -1,0 +1,25 @@
+
+    <div class="container d-flex align-items-center">
+
+      <h3 class="logo me-auto">
+        <a style="font-weight: bold; color: rgb(104, 96, 217);" href="index.html">
+          <img src="https://png.pngtree.com/png-vector/20220630/ourmid/pngtree-farmer-logo-hand-sickle-reap-png-image_5582849.png" width="50" height="50" padding-top="10%" class="d-inline-block" alt="">
+          Crop Deal
+        </a>
+      </h3>
+
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero" style="font-size: 16px; font-weight: bold; color: #0f0e0e; border-bottom: none;">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about" style="font-size: 16px; font-weight: bold; color: #252121; border-bottom: none;">About</a></li>
+          <li *ngIf="!Isloggedin"><a routerLink="/Login" class="nav-link scrollto" href="#portfolio" style="font-size: 16px; font-weight: bold; color: #080606; border-bottom: none;">Login</a></li>
+          <li *ngIf="!Isloggedin"><a routerLink="/Signup" class="getstarted scrollto" style="font-size: 16px; font-weight: bold; color: #151212; transition: color 0.3s; background-color: transparent; border: none;">Register Now!</a></li>
+          <li *ngIf="Isloggedin"><a routerLink="/UserProfile" class="nav-link scrollto" href="#about" style="font-size: 16px; font-weight: bold; color: #070505; border-bottom: none;">Profile</a></li>
+          <li *ngIf="Isloggedin"><a routerLink="/Features" class="nav-link scrollto" href="#about" style="font-size: 16px; font-weight: bold; color: #1b1919; border-bottom: none;">Features</a></li>
+          <li *ngIf="Isloggedin"><a (click)="logout()" routerLink="" class="getstarted scrollto" href="#about" style="font-size: 16px; font-weight: bold; color: #080606; background-color: transparent; border: none;">Log out</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+

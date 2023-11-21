@@ -1,0 +1,23 @@
+<p>search works!</p>
+
+
+<div class="search-container">
+    <input style="margin-left: 20px;" type="text" [(ngModel)]="searchQuery" (input)="search()"
+      placeholder="Search Crop">
+  </div>
+
+<div *ngIf="isResultVisible">
+
+  <table style="height: 1px;" class="table table-striped">
+
+    <tbody style="height: 1px;">
+      <tr style="height: 1px;" *ngFor="let crop of filteredCrops['name']  ">
+        <td style="height: 1px;">
+
+                                    <!-- niche dekho -->
+
+          <a style="height: 1px;"  class="search-results" *ngIf="filteredCrops['name'].length > 0" (click)="selectProduct(crop)"
+             >{{ crop.cropName }}</a>
+
+
+
